@@ -36,9 +36,7 @@ https://github.com/ahmedattlam10/social-links-profile
 
 -  Live Site:  
  https://ahmedattlam10.github.io/social-links-profile/
-
----
-
+ 
 ##  Author
 
 - GitHub: https://github.com/ahmedattlam10
