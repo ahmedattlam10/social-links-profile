@@ -2,14 +2,14 @@
 
 ![Project Screenshot](./assets/images/image.png)
 
-## 📌 Overview
+##  Overview
 
 This is my solution for the **Social Links Profile** challenge from Frontend Mentor.  
 The goal was to build a simple and responsive profile card with social links.
 
 ---
 
-## 🛠 Built With
+##  Built With
 
 - HTML5
 - CSS3
@@ -18,7 +18,7 @@ The goal was to build a simple and responsive profile card with social links.
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 - How to structure a simple profile card using semantic HTML  
 - Using Flexbox to center elements properly  
@@ -29,12 +29,12 @@ The goal was to build a simple and responsive profile card with social links.
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 🔗 GitHub Repository:  
+-  GitHub Repository:  
 https://github.com/ahmedattlam10/social-links-profile
 
-- 🌍 Live Site:  
+-  Live Site:  
 (هنضيفه بعد GitHub Pages)
 
 ---
