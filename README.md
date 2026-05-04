@@ -1,6 +1,6 @@
 # Social Links Profile
 
-![Project Screenshot](./assets/images/image.png)
+![Project Screenshot](./assets/images/Screenshot%202026-05-04%20220833.png.png)
 
 ##  Overview
 
@@ -36,7 +36,7 @@ https://github.com/ahmedattlam10/social-links-profile
 
 -  Live Site:  
  https://ahmedattlam10.github.io/social-links-profile/
- 
+
 ##  Author
 
 - GitHub: https://github.com/ahmedattlam10
