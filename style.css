@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: hsl(0, 0%, 8%);
+    --card-bg-color: hsl(0, 0%, 12%);
+    --links-bg-color: hsl(0, 0%, 20%);
+    --primary-color: hsl(75, 94%, 57%);
+    --text-color: hsl(0, 0%, 100%);
+    --p-font-size: 14px;
+    --large-font-weight: 700;
+    --mid-font-weight: 600;
+    --small-font-weight: 400;
+    --border-radius: 10px;
+}
+
+body{
+    font-family: "Inter" , sans-serif;
+    background-color: var(--bg-color);
+}
+
+.container{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card{
+    background-color: var(--card-bg-color);
+    width: 100%;
+    max-width: 24rem;
+    height: auto;
+    padding: 1.5625rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+
+h1{
+    color: var(--text-color);
+    font-weight: var(--large-font-weight);
+    font-size: 1.5rem;
+}
+
+.location{
+    color: var(--primary-color);
+    font-weight: var(--mid-font-weight);
+    font-size: var(--p-font-size);
+    margin-top: -8px;
+    margin-bottom: 30px;
+}
+
+.bio{
+    color: hsl(0, 0%, 100%,0.75);
+    font-weight: var(--small-font-weight);
+    font-size: var(--p-font-size);
+    margin-bottom: 26px;
+}
+
+.social-links
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul a{
+    background-color: var(--links-bg-color);
+    text-decoration: none;
+    color: var(--text-color);
+    width: 18.5rem;
+    height: 3rem;
+    border-radius: var(--border-radius);
+    font-weight: var(--small-font-weight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul a:hover{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+ul a:focus-visible{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    outline: 1px solid var(--primary-color);
+    outline-offset: 3px;
+}
