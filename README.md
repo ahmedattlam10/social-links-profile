@@ -1,6 +1,6 @@
 # Social Links Profile
 
-![Project Screenshot](./assets/images/Screenshot%202026-05-04%20220833.png.png)
+![Project Screenshot](./assets/images/Screenshot%202026-05-04%20220833.png)
 
 ##  Overview
 
