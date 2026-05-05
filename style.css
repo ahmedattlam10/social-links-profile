@@ -8,7 +8,7 @@
     --links-bg-color: hsl(0, 0%, 20%);
     --primary-color: hsl(75, 94%, 57%);
     --text-color: hsl(0, 0%, 100%);
-    --p-font-size: 14px;
+    --p-font-size: 0.875rem;
     --large-font-weight: 700;
     --mid-font-weight: 600;
     --small-font-weight: 400;
@@ -40,7 +40,7 @@ body{
     align-items: center;
 }
 
-img{
+.profile-card img{
     border-radius: 50%;
     width: 7rem;
     height: 7rem;
@@ -61,7 +61,7 @@ h1{
 }
 
 .bio{
-    color: hsl(0, 0%, 100%,0.75);
+    color: hsla(0, 0%, 100%, 0.75);
     font-weight: var(--small-font-weight);
     font-size: var(--p-font-size);
     margin-bottom: 26px;
@@ -77,11 +77,12 @@ h1{
     gap: 15px;
 }
 
-ul a{
+ .social-links a{
     background-color: var(--links-bg-color);
     text-decoration: none;
     color: var(--text-color);
-    width: 18.5rem;
+    width: 100%;
+    max-width: 18.5rem;
     height: 3rem;
     border-radius: var(--border-radius);
     font-weight: var(--small-font-weight);
@@ -91,12 +92,17 @@ ul a{
     cursor: pointer;
 }
 
-ul a:hover{
+.social-links a:hover{
     background-color: var(--primary-color);
     color: var(--bg-color);
 }
 
-ul a:focus-visible{
+.social-links a:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 3px;
+}
+ 
+.social-links a:focus-visible{
     background-color: var(--primary-color);
     color: var(--bg-color);
     outline: 1px solid var(--primary-color);
